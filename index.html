@@ -118,14 +118,11 @@
   </html>
   </div>
 
-    <div class="bannerContainer">
-        <div class="overallPhoto banLogo" style="background-image: url('/img/banLogo2.png');">
+    <div class="bannerContainer" onclick="indexURL()">
+        <div class="overallPhoto" style="background-image: url('/img/banLogo2.png');">
             <img src="/img/banText2.png" alt="" class="banText">
         </div>
     </div>
-
-  <a href="/">
-    <img src="https://bit.ly/3Son62d " alt="SBBPSSSBVIC" class="bannerimg"></a>
 
 
 
@@ -193,12 +190,12 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: brown;
+            background-color: #760A20 ;
         }
 
 
         .overallPhoto {
-            height: ;
+
             background-size: cover;
             background-position: center;
             width: 100%;
@@ -216,7 +213,11 @@
       
     </style>
 
-
+<script>
+  function indexURL() {
+window.location.href = '/';
+  }
+</script>
 
 
 
